@@ -24,6 +24,7 @@ import {tlahuac} from "./alcaldias/Tlahuac.jsx";
 import {tlalpan} from "./alcaldias/Tlalpan.jsx";
 import {venustiano} from "./alcaldias/Venustiano.jsx";
 import {xochimilco} from "./alcaldias/Xochimilco.jsx";
+import {Milpaalta} from "./alcaldias/Milpaalta.jsx";
 
 /** */
 import image1 from "./img/LOGOOFICIAL.png";
@@ -49,8 +50,8 @@ const Mapa = () => {
   new window.google.maps.Polygon({
     paths: alcu,  
     map: map,
-    fillColor: '#a3f77e',
-    fillOpacity: 0.5,  
+    fillColor: '#00ff00', // Puedes cambiar el color 
+    fillOpacity: 0.8,  
     strokeColor: 'black',
     strokeOpacity: 1,
     strokeWeight: 2,
@@ -58,8 +59,8 @@ const Mapa = () => {
   new window.google.maps.Polygon({
     paths: albe,
     map: map,
-    fillColor: '#a3f77e', // Puedes cambiar el color para el segundo polígono
-    fillOpacity: 0.5,
+    fillColor: '#00ff00', // Puedes cambiar el color 
+    fillOpacity: 0.8,
     strokeColor: 'black',
     strokeOpacity: 1,
     strokeWeight: 2,
@@ -67,8 +68,8 @@ const Mapa = () => {
   new window.google.maps.Polygon({
     paths: iztacalco,
     map: map,
-    fillColor: '#a3f77e', // Puedes cambiar el color para el segundo polígono
-    fillOpacity: 0.5,
+    fillColor: '#00ff00', // Puedes cambiar el color 
+    fillOpacity: 0.8,
     strokeColor: 'black',
     strokeOpacity: 1,
     strokeWeight: 2,
@@ -76,8 +77,8 @@ const Mapa = () => {
   new window.google.maps.Polygon({
     paths: venustiano,
     map: map,
-    fillColor: '#a3f77e', // Puedes cambiar el color para el segundo polígono
-    fillOpacity: 0.5,
+    fillColor: '#00ff00', // Puedes cambiar el color 
+    fillOpacity: 0.8,
     strokeColor: 'black',
     strokeOpacity: 1,
     strokeWeight: 2,
@@ -85,8 +86,8 @@ const Mapa = () => {
   new window.google.maps.Polygon({
     paths: azcapotzalco,
     map: map,
-    fillColor: '#a3f77e', // Puedes cambiar el color para el segundo polígono
-    fillOpacity: 0.5,
+    fillColor: '#00ff00', // Puedes cambiar el color 
+    fillOpacity: 0.8,
     strokeColor: 'black',
     strokeOpacity: 1,
     strokeWeight: 2,
@@ -94,8 +95,8 @@ const Mapa = () => {
   new window.google.maps.Polygon({
     paths: miguelhidalgo,
     map: map,
-    fillColor: '#a3f77e', // Puedes cambiar el color para el segundo polígono
-    fillOpacity: 0.5,
+    fillColor: '#00ff00', // Puedes cambiar el color 
+    fillOpacity: 0.8,
     strokeColor: 'black',
     strokeOpacity: 1,
     strokeWeight: 2,
@@ -103,8 +104,8 @@ const Mapa = () => {
   new window.google.maps.Polygon({
     paths: gustavo,
     map: map,
-    fillColor: '#a3f77e', // Puedes cambiar el color para el segundo polígono
-    fillOpacity: 0.5,
+    fillColor: '#00ff00', // Puedes cambiar el color 
+    fillOpacity: 0.8,
     strokeColor: 'black',
     strokeOpacity: 1,
     strokeWeight: 2,
@@ -112,8 +113,8 @@ const Mapa = () => {
   new window.google.maps.Polygon({
     paths: coyoacan,
     map: map,
-    fillColor: '#a3f77e', // Puedes cambiar el color para el segundo polígono
-    fillOpacity: 0.5,
+    fillColor: '#00ff00', // Puedes cambiar el color 
+    fillOpacity: 0.8,
     strokeColor: 'black',
     strokeOpacity: 1,
     strokeWeight: 2,
@@ -121,8 +122,8 @@ const Mapa = () => {
   new window.google.maps.Polygon({
     paths: iztapalapa,
     map: map,
-    fillColor: '#a3f77e', // Puedes cambiar el color para el segundo polígono
-    fillOpacity: 0.5,
+    fillColor: '#00ff00', // Puedes cambiar el color 
+    fillOpacity: 0.8,
     strokeColor: 'black',
     strokeOpacity: 1,
     strokeWeight: 2,
@@ -130,8 +131,8 @@ const Mapa = () => {
   new window.google.maps.Polygon({
     paths: tlahuac,
     map: map,
-    fillColor: '#a3f77e', // Puedes cambiar el color para el segundo polígono
-    fillOpacity: 0.5,
+    fillColor: '#00ff00', // Puedes cambiar el color 
+    fillOpacity: 0.8,
     strokeColor: 'black',
     strokeOpacity: 1,
     strokeWeight: 2,
@@ -139,8 +140,8 @@ const Mapa = () => {
   new window.google.maps.Polygon({
     paths: xochimilco,
     map: map,
-    fillColor: '#a3f77e', // Puedes cambiar el color para el segundo polígono
-    fillOpacity: 0.5,
+    fillColor: '#00ff00', // Puedes cambiar el color 
+    fillOpacity: 0.8,
     strokeColor: 'black',
     strokeOpacity: 1,
     strokeWeight: 2,
@@ -148,17 +149,16 @@ const Mapa = () => {
   new window.google.maps.Polygon({
     paths: tlalpan,
     map: map,
-    fillColor: '#a3f77e', // Puedes cambiar el color para el segundo polígono
-    fillOpacity: 0.5,
-    strokeColor: 'black',
+    fillColor: '#00ff00', // Puedes cambiar el color 
+    fillOpacity: 0.8,
     strokeOpacity: 1,
     strokeWeight: 2,
   });
   new window.google.maps.Polygon({
     paths: alvaro,
     map: map,
-    fillColor: '#a3f77e', // Puedes cambiar el color para el segundo polígono
-    fillOpacity: 0.5,
+    fillColor: '#00ff00', // Puedes cambiar el color 
+    fillOpacity: 0.8,
     strokeColor: 'black',
     strokeOpacity: 1,
     strokeWeight: 2,
@@ -166,8 +166,8 @@ const Mapa = () => {
   new window.google.maps.Polygon({
     paths: magdalena,
     map: map,
-    fillColor: '#a3f77e', // Puedes cambiar el color para el segundo polígono
-    fillOpacity: 0.5,
+    fillColor: '#00ff00', // Puedes cambiar el color 
+    fillOpacity: 0.8,
     strokeColor: 'black',
     strokeOpacity: 1,
     strokeWeight: 2,
@@ -175,15 +175,24 @@ const Mapa = () => {
     new window.google.maps.Polygon({
     paths: cuajimalpa,
     map: map,
-    fillColor: '#a3f77e', // Puedes cambiar el color para el segundo polígono
-    fillOpacity: 0.5,
+    fillColor: '#00ff00', // Puedes cambiar el color 
+    fillOpacity: 0.8,
+    strokeColor: 'black',
+    strokeOpacity: 1,
+    strokeWeight: 2,
+  });
+    new window.google.maps.Polygon({
+    paths: Milpaalta,
+    map: map,
+    fillColor: '#00ff00', // Puedes cambiar el color 
+    fillOpacity: 0.8,
     strokeColor: 'black',
     strokeOpacity: 1,
     strokeWeight: 2,
   });
   map.fitBounds(bounds);
   setMap(map);
-}, [alcu,albe,iztacalco,venustiano,azcapotzalco,miguelhidalgo,gustavo,coyoacan,iztapalapa,tlahuac,xochimilco,tlalpan,alvaro,magdalena,cuajimalpa]);  
+}, [alcu,albe,iztacalco,venustiano,azcapotzalco,miguelhidalgo,gustavo,coyoacan,iztapalapa,tlahuac,xochimilco,tlalpan,alvaro,magdalena,cuajimalpa,Milpaalta]);  
   const onUnmount = React.useCallback(function callback() {
     setMap(null);
   }, []);
